@@ -1,0 +1,26 @@
+/*#02b3e4 #2d3c49 #7d97ad*/
+
+.card_holder {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.primary_color {
+    background-color: #02b3e4;
+}
+
+.secondary_color {
+    color: #2d3c49;
+}
+
+.text_color {
+    color: #7d97ad;
+}
+
+.card_image {
+    height: 200px;
+}
+
+.carousel_img {
+    height: 300px;
+}

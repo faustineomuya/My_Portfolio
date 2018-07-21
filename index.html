@@ -18,9 +18,9 @@
 </head>
 
 <body>
-    <div class="container">
+    <header class="container header">
         <nav class="navbar navbar-expand-lg primary_color">
-            <a class="navbar-brand" href="#" style="color: #fff">
+            <a class="navbar-brand" href="#">
                 My Portfolio
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,28 +30,28 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#" style="color: #fff">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: #fff">About</a>
+                        <a class="nav-link" href="#">About</a>
                     </li>
 
                 </ul>
             </div>
         </nav>
-    </div>
-    <div class="container">
+    </header>
+    <section class="container top_section">
         <div class="row">
-            <div class="col-sm-6" style="padding: 15px;text-align: left">
-                <img src="assets/img/logo.png" alt="" style="height: 100px">
+            <div class="col-sm-6">
+                <img src="assets/img/logo.png" alt="" class="logo">
             </div>
-            <div class="col-sm-6" style="padding: 15px;text-align: right">
-                <h1 class="secondary_color"><span style="font-size: 1em;font-weight: lighter">Hello, i'm</span> Faustine</h1>
+            <div class="col-sm-6 name_section">
+                <h1 class="secondary_color"><span class="hello_span">Hello, i'm</span> Faustine</h1>
                 <small class="text_color">A Front-End Ninja</small>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12" style="padding: 0px;">
+            <div class="col-sm-12">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -80,10 +80,10 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container card_holder">
+    </section>
+    <section class="container card_holder">
         <div class="row">
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4">
+            <article class="col-sm-12 col-xs-12 col-md-4 col-lg-4">
                 <div class="card">
                     <img class="card-img-top card_image" src="assets/img/d.png" alt="Card image cap">
                     <div class="card-body">
@@ -92,8 +92,8 @@
                         <a href="https://faustineomuya.github.io/pixel-art/" class="btn text_color">Check it out</a>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 ">
+            </article>
+            <article class="col-sm-12 col-xs-12 col-md-4 col-lg-4 ">
                 <div class="card">
                     <img class="card-img-top card_image" src="assets/img/a.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -102,8 +102,8 @@
                         <a href="https://faustineomuya.github.io/pixel-art/" class="btn text_color">Check it out</a>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4">
+            </article>
+            <article class="col-sm-12 col-xs-12 col-md-4 col-lg-4">
                 <div class="card">
                     <img class="card-img-top card_image" src="assets/img/c.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -112,22 +112,24 @@
                         <a href="https://faustineomuya.github.io/pixel-art/" class="btn text_color">Check it out</a>
                     </div>
                 </div>
-            </div>
+            </article>
         </div>
-    </div>
-    <nav class="navbar primary_color">
+    </section>
+    <footer class="container footer">
+        <nav class="navbar primary_color">
 
-        <div id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#" style="color: #fff">Copyright 2018</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="mailto:faustineomuya@gmail.com" style="color: #fff;text-transform: lowercase;">faustineomuya@gmail.com</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            <div id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Copyright 2018</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:faustineomuya@gmail.com">faustineomuya@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
